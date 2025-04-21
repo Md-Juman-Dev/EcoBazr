@@ -10,18 +10,11 @@
         href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
         rel="stylesheet" />
 
-    <!-- *Swipper Cdn -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- *Swipper Cdn -->
-
-    <!-- *Icon Cdn -->
     <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
-    <!-- *Icon Cdn -->
-
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/404Error.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -85,7 +78,7 @@
 
 
                         <!-- *Cart Icon added with sideBar -->
-                        <div class="paymentDetails">
+                        <div class="paymentdetails text-start">
                             <p>Shopping cart:</p>
                             <h5>$57.00</h5>
                         </div>
@@ -173,7 +166,7 @@
                         <li><a href="index.html">Home</a></li>
                         <li class="shopCollapse">
                             <div class="row align-items-center">
-                                <div class="col-6"><a href="#">Shop</a></div>
+                                <div class="col-6"><a href="shop.html">Shop</a></div>
                                 <div class="col-6 text-end">
                                     <iconify-icon icon="ep:arrow-right-bold"></iconify-icon>
                                 </div>
@@ -202,9 +195,9 @@
                                 <li><a href="#">Privacy Policy</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -229,14 +222,14 @@
                     <div class="row">
                         <div class="col-6 searchProductCnt">
                             <a href="#"><img class="img-fluid" src="./assets/img/Product Image.png"></a>
-                            <div class="productDetails">
+                            <div class="productdetails text-start">
                                 <h5>Indian Green Apple</h5>
                                 <p>$14.99 <del>$20.99</del></p>
                             </div>
                         </div>
                         <div class="col-6 searchProductCnt">
                             <a href="#"><img class="img-fluid" src="./assets/img/Product Image (1).png"></a>
-                            <div class="productDetails">
+                            <div class="productdetails text-start">
                                 <h5>Surjapur Mango</h5>
                                 <p>$14.99</p>
                             </div>
@@ -262,7 +255,7 @@
                         </a>
                     </div>
                     <div class="col-3">
-                        <a href="">
+                        <a href="cart.html">
                             <iconify-icon icon="lets-icons:bag-alt"></iconify-icon>
                         </a>
                     </div>
@@ -282,25 +275,26 @@
             <nav class="d-none d-lg-block navBarDesktop">
                 <div class="container">
                     <div class="row align-items-center">
-                        <!-- <div class="col-3">
-                     <div class="dropdown">
-                        <button class="categoryDrop d-flex align-items-center justify-content-evenly" type="button"
-                           data-bs-toggle="dropdown" aria-expanded="false">
-                           <iconify-icon icon="lucide:menu"></iconify-icon><span>All
-                              Categories</span><iconify-icon icon="iconamoon:arrow-down-2-thin"></iconify-icon>
-                        </button>
-                        <ul class="dropdown-menu">
-                           <li><a class="dropdown-item" href="#">Food</a></li>
-                           <li><a class="dropdown-item" href="#">Baby Food & Care</a></li>
-                           <li><a class="dropdown-item" href="#">Home Cleaning</a></li>
-                           <li><a class="dropdown-item" href="#">Beauty & Health</a></li>
-                           <li><a class="dropdown-item" href="#">Fashion & Lifestyle</a></li>
-                           <li><a class="dropdown-item" href="#">Home & Kitchen</a></li>
-                           <li><a class="dropdown-item" href="#">Stationeries</a></li>
-                        </ul>
-                     </div>
-                  </div> -->
-                        <div class="col-6 middleNav">
+                        <div class="col-3">
+                            <div class="dropdown">
+                                <button class="categoryDrop d-flex align-items-center justify-content-evenly"
+                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <iconify-icon icon="lucide:menu"></iconify-icon><span>All
+                                        Categories</span><iconify-icon
+                                        icon="iconamoon:arrow-down-2-thin"></iconify-icon>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Food</a></li>
+                                    <li><a class="dropdown-item" href="#">Baby Food & Care</a></li>
+                                    <li><a class="dropdown-item" href="#">Home Cleaning</a></li>
+                                    <li><a class="dropdown-item" href="#">Beauty & Health</a></li>
+                                    <li><a class="dropdown-item" href="#">Fashion & Lifestyle</a></li>
+                                    <li><a class="dropdown-item" href="#">Home & Kitchen</a></li>
+                                    <li><a class="dropdown-item" href="#">Stationeries</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-7 middleNav">
                             <ul class="d-flex align-items-center justify-content-start">
                                 <li><a class="active" href="index.html">Home</a></li>
                                 <li class="desktopParent">
@@ -328,7 +322,7 @@
                                 <li><a class="" href="contact.html">Contact Us</a></li>
                             </ul>
                         </div>
-                        <div class="col-6 d-flex align-items-center justify-content-end quickCall">
+                        <div class="col-2 d-flex align-items-center quickCall">
                             <iconify-icon icon="ph:phone-call-light"></iconify-icon>
                             <a href="tel:219555-0114">(219) 555-0114</a>
                         </div>
@@ -452,9 +446,9 @@
         </section>
         <!-- *copy Right End Hear -->
     </footer>
-    <script src=" ./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/jquery-3.7.1.min.js"></script>
-    <script src="./assets/js/shop.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>

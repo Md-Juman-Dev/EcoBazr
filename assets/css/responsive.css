@@ -1,4 +1,11 @@
 @media (max-width: 991.99px) {
+  #productMain .headers h2 {
+    padding-top: 40px;
+    font-size: 23px;
+  }
+  #drinks {
+    padding: 30px 0;
+  }
   #bannerSm .bannerImg .discount {
     width: 50px;
     height: 50px;
@@ -11,7 +18,9 @@
     top: 0px;
     right: 20px;
   }
-
+  #newsLetter {
+    padding: 311px 0 40px;
+  }
   #bannerSm .bannerImg .discount p {
     font-family: var(--font-family);
     font-weight: 600;
@@ -81,13 +90,22 @@
     position: absolute;
     right: 0;
   }
-
+  #bestDeals .middleItems h2 {
+    font-size: 24px;
+  }
+  #review .head {
+    font-size: 24px;
+    padding-top: 50px;
+  }
+  #latestNews .head {
+    font-size: 28px;
+  }
   #features {
     transform: translateY(0%);
   }
 
   #productMain .headers .navigation a {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   #popup .popup2 {
@@ -140,7 +158,6 @@
     font-size: 20px;
     margin-top: 5px;
     background: #fff;
-
   }
 
   #bestDeals .middleItems h2 {
@@ -225,17 +242,70 @@
   #details .formCnt .formd {
     margin-left: 10px;
   }
-  #latestNews{
+  #latestNews {
     transform: translateY(18%);
   }
-  #video img{
+  #video img {
     transform: translateY(-85%);
   }
-  #latestNews .newsCnt .text a{
+  #latestNews .newsCnt .text a {
     padding-bottom: 5px;
   }
+  /*  Product ditails page */
+  /* MOBILE VIEW */
+  .thumbnail-list {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    overflow-x: auto;
+    gap: 10px;
+  }
 
+  .thumb {
+    width: 70px;
+  }
 
+  .main-image img {
+    width: 100%;
+    max-height: 70vh;
+  }
+
+  .main-image {
+    height: 300px;
+    margin-bottom: 15px;
+  }
+  .details h1 {
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  .details h1 span {
+    font-size: 13px;
+    padding: 3px 7px;
+  }
+  .review-ro-sku {
+    margin: 10px 0;
+  }
+  .price-ro-offer {
+    margin-bottom: 0px;
+  }
+  .brand-ro-share p {
+    margin: 10px 0 15px;
+  }
+
+  .add-to-cart-btn {
+    padding: 10px;
+  }
+
+  .DAC-btn button {
+    margin: 0;
+  }
+  .DAC-btn button {
+    font-size: 12px;
+  }
+  #featureProduct .head {
+    font-size: 24px;
+    margin: 40px 0 20px;
+  }
 }
 
 @media (max-width: 375px) {
