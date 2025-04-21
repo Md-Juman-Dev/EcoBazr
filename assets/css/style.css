@@ -3214,6 +3214,173 @@ input[type='range']::-webkit-slider-thumb {
   line-height: 150%;
   color: var(--branding-success-bright);
 }
+
+/*! <===================User Dashboard Design===================> */
+
+.userDashboard {
+  margin: 80px auto;
+  max-width: 1200px;
+}
+.leftSide h3 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-900);
+  margin-bottom: 18px;
+}
+.leftSide ul li {
+  width: 100%;
+  height: 56px;
+}
+.leftSide ul li.active {
+  box-shadow: inset 3px 0 0 0 #20b526;
+  background: var(--gren-gray-scale-50);
+}
+.leftSide ul li.active iconify-icon {
+  color: var(--gray-scale-gray-–-900);
+}
+.leftSide ul li a iconify-icon {
+  color: var(--gray-scale-gray-–-400);
+  font-size: 20px;
+  margin-right: 16px;
+}
+.leftSide ul li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 15px 20px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-600);
+}
+.profile-ro-address {
+  margin-bottom: 50px;
+}
+.main-dashboard .user-img img {
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  border-radius: 50%;
+}
+.main-dashboard .userName {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  margin: 3px 0;
+  text-align: center;
+  color: var(--gray-scale-gray-–-900);
+}
+.main-dashboard .roll {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  margin: 3px 0;
+  text-align: center;
+  color: var(--gray-scale-gray-–-500);
+}
+.main-dashboard a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--branding-success);
+}
+
+.main-dashboard .bill-address {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--gray-scale-gray-–-400);
+}
+.main-dashboard .name {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-900);
+  margin: 16px 0 8px;
+}
+.main-dashboard .address {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-600);
+}
+.main-dashboard .email {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-900);
+  margin: 8px 0 6px;
+}
+.main-dashboard .phone {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-900);
+}
+.main-dashboard .edit-address {
+  font-family: var(--font-family);
+  font-weight: 500;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--branding-success);
+  margin-top: 17px;
+}
+.main-dashboard .history {
+  margin-top: 20px;
+}
+.main-dashboard .history h5 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-900);
+}
+.main-dashboard .history table {
+  width: 100%;
+  margin: 16px 0 12px;
+}
+.main-dashboard .history thead {
+  background: var(--gray-scale-gray-–-50);
+  margin-bottom: 12px;
+}
+.main-dashboard .history thead th {
+  padding: 12px 24px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--gray-scale-gray-–-700);
+}
+.main-dashboard .history tbody td {
+  font-family: var(--font-family);
+  font-weight: 400;
+  padding: 12px 24px;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-800);
+}
+.main-dashboard .history tbody .view-details {
+  padding: 12px 0 12px 24px;
+}
+.main-dashboard .history
+.main-dashboard .history
 /*! <===================Footer Design===================> */
 /* *Footer Start Here */
 footer {
@@ -3235,7 +3402,7 @@ footer .leftSide .logo span {
   line-height: 119%;
   letter-spacing: -0.03em;
   margin-left: 5px;
-  color: var(--gray-scale-white);
+  color: var(--gray-scale-gray-–-900);
 }
 
 footer .leftSide p {
@@ -3259,7 +3426,7 @@ footer .leftSide span a {
   font-size: 14px;
   line-height: 150%;
   padding-bottom: 3px;
-  color: var(--gray-scale-white);
+  color: var(--gray-scale-gray-–-900);
   border-bottom: 2px solid var(--branding-success-dark);
 }
 
