@@ -2991,7 +2991,7 @@ input[type='range']::-webkit-slider-thumb {
 }
 .wishlist-btn iconify-icon {
   border: none;
-  padding: 12px 8px;
+  padding: 10px;
   color: var(--branding-success-dark);
   border: 0;
   outline: none;
